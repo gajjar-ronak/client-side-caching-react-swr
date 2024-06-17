@@ -1,6 +1,6 @@
 # Client Side Caching Example using React and SWR
-<img width="1440" alt="Screenshot 2024-06-16 at 01 09 28" src="https://github.com/gajjar-ronak/client-side-caching-react-swr/assets/53045992/c5011b97-b831-404f-8067-aab423e09f6d">
-<img width="1440" alt="Screenshot 2024-06-16 at 01 31 28" src="https://github.com/gajjar-ronak/client-side-caching-react-swr/assets/53045992/6ee76285-55a5-4c18-a6e8-e8f1b6e31bd1">
+<img width="1440" alt="Screenshot 2024-06-17 at 12 18 46" src="https://github.com/gajjar-ronak/client-side-caching-react-swr/assets/53045992/feba8439-6d72-4263-9c4d-a8ad665b9354">
+<img width="1440" alt="Screenshot 2024-06-17 at 12 18 56" src="https://github.com/gajjar-ronak/client-side-caching-react-swr/assets/53045992/86413e61-5dc9-4e46-ba96-3b25d9a57817">
 
 This project demonstrates client-side caching using React and SWR (Stale-While-Revalidate). The example shows how to fetch data from an API, cache it on the client side, and revalidate it periodically to ensure the data remains fresh.
 
