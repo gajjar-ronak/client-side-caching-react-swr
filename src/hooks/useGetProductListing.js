@@ -6,12 +6,13 @@ const getKey = () => {
 };
 
 function useGetProductListing() {
-  const { data, error } = useSWR(() => getKey(), getAllProducts);
+  const { data, error, isValidating } = useSWR(() => getKey(), getAllProducts);
 
   return {
     products: data,
     isLoading: !error && !data,
     isError: error,
+    isValidating: isValidating,
   };
 }
 

@@ -12,12 +12,14 @@ async function getCartData() {
 }
 
 function useCartData() {
-  const { data, error } = useSWR(getKey, getCartData);
+  const { data, error, isValidating
+  } = useSWR(getKey, getCartData);
 
   return {
     carts: data,
     isLoading: !error && !data,
     isError: error,
+    isValidating: isValidating,
   };
 }
 
